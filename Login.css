@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color:black;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 15px;
+    width: 100%;
+}
+#login {
+    display: none;
+}
